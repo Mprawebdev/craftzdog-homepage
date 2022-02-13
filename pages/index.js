@@ -18,50 +18,6 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '.ks/inkdrop_eyecatch.png'
-
-const Home = () => (
-  <Layout>
-    <Container>
-      <Bo
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-        Hai, Nama saya Mochamad Pratama Mukti Dari Indonesia.
-      </Box>
-
-      <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
-          <Heading as="h2" variant="page-title">
-            Mochamad Pratama Mukti
-          </Heading>
-          <p>Anak Nolep ( Wibu nolep bro )</p>
-        </Box>
-        <Box
-          flexShrink={0}
-          mt={{ base: 4, md: 0 }}
-          ml={{ md: 6 }}import NextLink from 'next/link'
-import {
-  Link,
-  Container,
-  Heading,
-  Box,
-  Image,
-  SimpleGrid,
-  Button,
-  List,
-  ListItem,
-  Icon,
-  useColorModeValue
-} from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
-import Layout from '../components/layouts/article'
-import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoFacebook } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/youtube.png'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
@@ -76,15 +32,15 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hai, Nama saya Mochamad Pratama Mukti Dari Indonesia.
+        Hello, I&apos;m a full-stack developer based in Japan!
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Mpratama
+            Takuya Matsuyama
           </Heading>
-          <p>Anak Nolep ( Mencari sebuah Inspirasi )</p>
+          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -99,11 +55,11 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/mpratama.jpg"
+            src="/images/takuya.jpg"
             alt="Profile image"
           />
         </Box>
-      </Box>
+      </Box
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
