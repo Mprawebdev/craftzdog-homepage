@@ -63,16 +63,16 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
           Mpratama adalah seorang siswa kelas 12 Multimedia 2 dari sekolah SMKN 1 Driyorejo. 
           dia adalah seorang siswa pendiam yang hobbynya suka sekali bermain hp.
           dia adalah anak nolep yang suka menonton anime, film, manhua, manhwa, dan komik.
           karena sudah mau lulus dia sedikit pusing memikirkan masa depan yang akan dijalaninya nanti.
-          tidak lupa dia juga mempromosikan app dari bang takuya yang bernama{' '}
-          <NextLink href="/works/inkdrop">
-            <Link>Inkdrop</Link>
+          Jangan lupa untuk follow instagramnya yaa{' '}
+          <NextLink href="https://www.instagram.com/mochamadpratamamukti/">
+            <Link>Follow Me</Link>
           </NextLink>
           .
         </Paragraph>
